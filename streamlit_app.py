@@ -2,7 +2,7 @@
 #run on website: commit and push: https://estherjohanna-streamlit-example-streamlit-app-egl5jh.streamlit.app/
 import streamlit as st
 
-st.write("R-Angst Fragebogen")
+st.title("Fragebogen zur R-Angst")
 
 answer1 = st.select_slider('R stürzt immer ab, wenn ich es benutze', ['Ich stimme gar nicht zu', 'Ich stimme nicht zu', 'Weder - noch', 'Ich stimme zu','Ich stimme voll und ganz zu'])
 
@@ -19,7 +19,7 @@ answer6 = st.select_slider('Ich wache unter meiner Bettdecke auf und denke, dass
 answer7 = st.select_slider('Alle Computer hassen mich', ['Ich stimme gar nicht zu', 'Ich stimme nicht zu', 'Weder - noch', 'Ich stimme zu','Ich stimme voll und ganz zu'])
 
 
-password = st.text_input('efa')
+#password = st.text_input('efa')
 
-if password == "efa":
-    st.write(f"your type is: {answer}")
+#if password == "efa":
+#    st.write(f"your type is: {answer}")

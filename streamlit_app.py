@@ -2,11 +2,11 @@
 #run on website: commit and push: https://estherjohanna-streamlit-example-streamlit-app-egl5jh.streamlit.app/
 import streamlit as st
 
-st.title("Fragebogen zur R-Angst")
+st.title("Fragebogen zur R-Angst1")
 
 showResult = False
 
-listOfAnswers = ['Ich stimme gar nicht zu', 'Ich stimme nicht zu', 'Weder - noch', 'Ich stimme zu','Ich stimme voll und ganz zu']
+listOfAnswers = ['123Ich stimme gar nicht zu', 'Ich stimme nicht zu', 'Weder - noch', 'Ich stimme zu','Ich stimme voll und ganz zu']
 answer1 = st.radio('R stürzt immer ab, wenn ich es benutze.', listOfAnswers)
 index1 = listOfAnswers.index(answer1)
 

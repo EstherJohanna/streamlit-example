@@ -22,7 +22,7 @@ index4 = listOfAnswers.index(answer4)
 
 
 if st.button('Speichern'):
-    st.write('Vielen Dank! Ihre Antwort: Sie würden die Smarty-Punkte einsammeln.')
+    st.write('Vielen Dank!')
 
 
 #st.title("Ergebnis: Wie gut passt die Theorie des geplanten Verhaltens auf Sie?")

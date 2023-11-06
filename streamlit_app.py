@@ -1,6 +1,22 @@
 #run locally in Terminal:  streamlit run streamlit-example\streamlit_app.py
 #run on website: commit and push: https://estherjohanna-streamlit-example-streamlit-app-egl5jh.streamlit.app/
+
 import streamlit as st
+
+st.write("Streamlit version:", st.__version__)
+# Create a connection
+conn = st.connection('database', type='sql')
+
+# Use the connection to query data
+data = conn.query("SELECT * FROM my_table")
+
+# Display the data
+st.dataframe(data)
+
+
+
+
+
 
 st.title("Fragebogen zur Vorlesungsteilnahme")
 

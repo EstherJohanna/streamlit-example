@@ -3,7 +3,7 @@
 
 import streamlit as st
 
-st.title("Fragebogen zur Vorlesungsteilnahme")
+st.title("Datenerhebung")
 
 showResult = False
 
@@ -17,7 +17,7 @@ listOfAnswers = ['Ich stimme gar nicht zu', 'Ich stimme nicht zu', 'Weder - noch
 #answer3 = st.radio('Ich kann einen engen Zeitplan überwinden, um Zeit für den Besuch von Human Factors-Vorlesungen zu finden.', listOfAnswers)
 #index3 = listOfAnswers.index(answer3)
 
-answer4 = st.radio('Gäbe es für die Teilnahme an Human Factors-Vorlesungen „Smarty-Punkte", würde ich sie einsammeln.', listOfAnswers)
+answer4 = st.radio('Wenn im Vorlesungssaal etwas Buntes vorne auf dem Tisch liegt, werde ich bei nächster Gelegenheit nachschauen, was es ist.', listOfAnswers)
 index4 = listOfAnswers.index(answer4)
 
 

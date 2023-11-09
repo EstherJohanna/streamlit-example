@@ -21,13 +21,13 @@ st.title("Fragebogen zur Vorlesungsteilnahme")
 showResult = False
 
 listOfAnswers = ['Ich stimme gar nicht zu', 'Ich stimme nicht zu', 'Weder - noch', 'Ich stimme zu','Ich stimme voll und ganz zu']
-answer1 = st.radio('Ich bin ein Detektiv, der die Geheimnisse des menschlichen Verhaltens lüftet, wenn ich eine Vorlesung über Human Factors besuche.', listOfAnswers)
+answer1 = st.radio('Ich mag Schokolade.', listOfAnswers)
 index1 = listOfAnswers.index(answer1)
 
-answer2 = st.radio('Meine Freunde würden mir ein ‚High Five‘ dafür geben, dass ich regelmäßig an Human Factors-Vorlesungen teilnehme.', listOfAnswers)
+answer2 = st.radio('Meine Freunde finden bunte Kreise toll.', listOfAnswers)
 index2 = listOfAnswers.index(answer2)
 
-answer3 = st.radio('Ich kann einen engen Zeitplan überwinden, um Zeit für den Besuch von Human Factors-Vorlesungen zu finden.', listOfAnswers)
+answer3 = st.radio('Es gibt Schokolade in meiner Nähe.', listOfAnswers)
 index3 = listOfAnswers.index(answer3)
 
 answer4 = st.radio('Gäbe es für die Teilnahme an Human Factors-Vorlesungen „Smarty-Punkte" würde ich möglichst alle davon einsammeln.', listOfAnswers)
